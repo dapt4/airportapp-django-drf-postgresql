@@ -33,7 +33,7 @@ finally the project run with:\
 
 `$ python manage.py runserver`
 
-open your browser in:\
+open your browser in: \
 
 `localhost:8000/signin`\
 `localhost:8000/signup`\
