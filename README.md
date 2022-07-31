@@ -29,11 +29,11 @@ ENV_PORT='{your db port or 5432}'\
 ENV_USER='{your db user}'\
 ENV_PASSWORD='{your db password}'\
 
-finally the project run with:\
+finally the project run with: 
 
 `$ python manage.py runserver`
 
-open your browser in: \
+open your browser in: 
 
 `localhost:8000/signin`\
 `localhost:8000/signup`\
