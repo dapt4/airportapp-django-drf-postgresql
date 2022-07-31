@@ -40,5 +40,5 @@ open your browser in:\
 `localhost:8000/seat`\
 `localhost:8000/airplane`\
 `localhost:8000/ticket`\
-`localhost:8000/ticket/<int:id>`\
+`localhost:8000/ticket/<int:id>`
 
