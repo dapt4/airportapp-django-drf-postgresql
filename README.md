@@ -1,4 +1,3 @@
-
 # airportapp-django-drf-postgresql
 
 first create your virtualenv
@@ -23,14 +22,12 @@ create a .env file
 
 and add your postgresql credentials and the app SECRET_KEY to .env file
 
->ENV_SECRET_KEY="{add a secret key like bhajfbkjhawbdkjhabdjh}"
-ENV_NAME='airportapp'
-ENV_HOST='{your host or localhost}'
-ENV_PORT='{your db port or 5432}'
-ENV_USER='{your db user}'
-ENV_PASSWORD='{your db password}
+>ENV_SECRET_KEY="{add a secret key like bhajfbkjhawbdkjhabdjh}"\
+ENV_NAME='airportapp'\
+ENV_HOST='{your host or localhost}'\
+ENV_PORT='{your db port or 5432}'\
+ENV_USER='{your db user}'\
+ENV_PASSWORD='{your db password}'\
 
 finally the project run with:
 `$ python manage.py runserver`
-
-
