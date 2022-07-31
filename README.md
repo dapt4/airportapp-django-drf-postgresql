@@ -27,7 +27,7 @@ ENV_NAME='airportapp'\
 ENV_HOST='{your host or localhost}'\
 ENV_PORT='{your db port or 5432}'\
 ENV_USER='{your db user}'\
-ENV_PASSWORD='{your db password}'\
+ENV_PASSWORD='{your db password}'
 
 finally the project run with: 
 
