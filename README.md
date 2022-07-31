@@ -32,3 +32,13 @@ ENV_PASSWORD='{your db password}'\
 finally the project run with:\
 
 `$ python manage.py runserver`
+
+open your browser in:\
+
+`localhost:8000/signin`\
+`localhost:8000/signup`\
+`localhost:8000/seat`\
+`localhost:8000/airplane`\
+`localhost:8000/ticket`\
+`localhost:8000/ticket/<int:id>`\
+
