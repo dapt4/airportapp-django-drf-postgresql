@@ -14,9 +14,9 @@ then install requeriments
 
 install postgresql, login and create the database
 
-`CREATE DATABASE airportapp`
+`CREATE DATABASE airportapp;`
 
-create a .env file
+create a .env file in the root folder
 
 `$ touch .env`
 
@@ -28,6 +28,10 @@ ENV_HOST='{your host or localhost}'\
 ENV_PORT='{your db port or 5432}'\
 ENV_USER='{your db user}'\
 ENV_PASSWORD='{your db password}'
+
+run the command:
+
+`python manage.py migrate`
 
 finally the project run with: 
 
